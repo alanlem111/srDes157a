@@ -44,9 +44,12 @@ header{
 
 
 footer{
-    margin-top: 10px;
-    background-color: antiquewhite;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    /*
+    background-color: antiquewhite;*/
     text-align: center;
+    font-size: small;
    
 }
 
@@ -75,6 +78,7 @@ a{
 
 nav ul li a{
     text-decoration: none;
+    font-family: 'Roboto Slab', serif;
     
 }
 
@@ -97,7 +101,8 @@ ul{
 .left_column{
     width: 250px;
     padding: 25px;
-    background-color: rgb(216, 159, 85);
+    background-color: rgb(107, 213, 230);
+    box-shadow: 0 1rem 1.5rem -0.5rem rgb(66, 66, 66);
     
 
 }
@@ -118,6 +123,47 @@ ul{
 
 }
 
+#tittle_change{
+    display: inline-block;
+    
+}
+
+
+
+#change{
+    
+    color: rgb(181, 164, 81);
+    font-family: 'Gorditas', serif;
+    font-weight: 700;
+    font-size: 50px;
+   
+    padding-left: 200px;
+    padding-top: 90px;
+
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+    
+    animation: typing 4s infinite;
+
+}
+
+
+
+
+@keyframes typing{
+    from {width: 0 }
+ 
+}
+
+
+
+
+
+
+
+
 
 
 #banner{
@@ -132,8 +178,6 @@ ul{
 
 }
 
-.pot{
-        background-color: aqua;
-        width: 50px;
-        height: 50px;
+#pot{
+      
 }
