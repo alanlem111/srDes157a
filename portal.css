@@ -144,7 +144,7 @@ ul{
 
 }
 
-#tittle_change{
+#tittle_change #change_2{
     display: inline-block;
     
 }
@@ -160,7 +160,7 @@ ul{
     padding-left: 465px;
     
     
-    width: 100%;
+    width:500px;
     white-space: nowrap;
     overflow: hidden;
 
