@@ -4,11 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Experiment 2</title>
+
+
+    <style>
+        #pattern, #test, #match{
+            color: rgb(225, 146, 28);
+        }
+
+    </style>
 </head>
 <body>
 
     <h1>Experiment 2</h1>
-    <h2>This is my experiment 2</h2>
+    <h2>What is your mood today and what should you eat?</h2>
 
 
     
@@ -27,7 +35,7 @@
         var options =["very sad", "sad", "fine", "happy", "very happy"]
 
         function userPromt(){
-            var userInput = prompt('On a scale of 1-5 decribe your mood today:', ' ');
+            var userInput = prompt('On a scale of 1-5 describe your mood today', ' ');
 
             if(userInput >0 && userInput <options.length+1){
                 document.getElementById("test").innerText = options[userInput-1];
