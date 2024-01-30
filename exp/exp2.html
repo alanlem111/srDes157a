@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+</head>
+<body>
+
+    <h1>Experiment 2</h1>
+    <h2>This is my experiment 2</h2>
+
+
+    
+    <p>Today you are <em id =test></em></p> 
+
+    <p id = "pattern"></p>
+
+    <p>Why don't you try some <em id ="match"></em></p>
+
+    
+
+
+    <script>
+
+        //display the users number from the mood in the array index 
+        var options =["very sad", "sad", "fine", "happy", "very happy"]
+
+        function userPromt(){
+            var userInput = prompt('On a scale of 1-5 decribe your mood today:', ' ');
+
+            if(userInput >0 && userInput <options.length+1){
+                document.getElementById("test").innerText = options[userInput-1];
+            }
+            else{
+                alert("Please enter a number bewteen 1-5.")
+                return null;
+            }
+        }userPromt();
+
+
+
+        //display a random food
+        var food = ["ramen", "pizza", "fried chicken", "apple pie"]
+
+        function randomInt(min, max){
+            return Math.floor((max-min +1)* Math.random())+min;
+        }
+        document.getElementById("match").innerText = food[randomInt(0,3)];
+        
+
+        
+
+        //loop of symbols
+        var pattern ="#";
+        function symbols(){
+            for(let i = 1; i<=20; i++){
+                document.getElementById("pattern").innerText = pattern.repeat(i);
+            }
+        }symbols();
+
+
+        /*  This programm ask the user to enter a number from 1-5 about their mood.
+            After that the program will display either very sad, sad, fine, happy, or very happy
+            depending on the index of the users input. If the user enter a letter or a numbe bigger
+            than 5 it will throw an exception telling the user that to enter number bewteen 1-5.
+            Also this program will display a random food as well as displaying 20 # symbol to bewteen them. 
+            
+            
+        */
+        
+        
+
+       
+
+    </script>
+
+
+
+
+
+
+
+
+    
+</body>
+
+
+
+
+</html>
