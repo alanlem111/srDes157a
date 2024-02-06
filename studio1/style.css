@@ -29,12 +29,13 @@ input[type="text"]:focus {
 }
 
 footer{
-    max-width: 1000px;
+    max-width: 300px;
     margin: auto;
     opacity: 0.8;
     text-align: center;
     margin-top: 20px;
     color: rgb(203, 203, 203);
+    background-color: rgb(161, 161, 161);
 
     
 }
