@@ -23,9 +23,9 @@ a{
 input[type="text"]:focus {
     border:1px solid #D6D9DC;
     outline: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(146, 97, 97, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Gorditas', serif;
 }
 
 footer{
@@ -74,14 +74,13 @@ body{
 
 
 main{
-    max-width: 500px;
-    min-width: 500px;
+    max-width: 300px;
+    min-width: 300px;
     margin: auto;
     padding: 20px;
-    
+
     height: 100%;
     border-radius: 25px;
-    
     background-color: rgb(161, 161, 161);
     opacity: 0.8;
     
@@ -92,8 +91,9 @@ main{
 
 form{
   display: flex;
+  padding-left: 25px;
   flex-direction: column;
-  max-width: 300px;
+  max-width: 250px;
   
 
 
@@ -104,4 +104,34 @@ label{
     font-family: 'Roboto Slab', serif;
     padding-top: 30px;
 }
+
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+
+  #overlay{
+    position: fixed;
+    max-width: 500px;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    top: 300px;
+    left: 200px;
+    right: 200px;
+   
+    background-color: rgb(219, 245, 236);
+
+    font-family: 'Gorditas', serif;
+    font-weight: 400;
+    font-size: larger;
+    
+  }
+
+  
+
 

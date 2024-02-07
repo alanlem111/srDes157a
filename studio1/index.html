@@ -13,8 +13,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&family=Roboto+Slab:wght@400&display=swap" rel="stylesheet">
 
 
-
-
     <script src="script.js" defer> </script>
 
 
@@ -29,62 +27,51 @@
         <h1>Lost in the forest</h1>
     </header>
 
+    <main class = "showing">
+            <form>
+                <label for="noun1">Provide a noun</label>
+                <input type="text" id="noun1" required >
+
+                <label for="verb1">Provide a verb</label>
+                <input type="text" id="verb1" required >
+
+                <label for="adj">Provide a adjective</label>
+                <input type="text" id="adj" required>
+
+                <label for="sound">Provide a sound</label>
+                <input type="text" id="sound" required >
+
+                <label for="adverb">Provide a adverb</label>
+                <input type="text" id="adverb" required >
 
 
-    <main>
+                <label for="noun2">Provide a noun</label>
+                <input type="text" id="noun2" required >
 
-        <form id = "formBox">
-
-            <label for="noun1">Provide a noun</label>
-            <input type="text" id="noun1" required >
-
-            <label for="verb1">Provide a verb</label>
-            <input type="text" id="verb1" required >
-
-            <label for="adj">Provide a adjective</label>
-            <input type="text" id="adj" required>
-
-            <label for="sound">Provide a sound</label>
-            <input type="text" id="sound" required >
-
-            <label for="adverb">Provide a adverb</label>
-            <input type="text" id="adverb" required >
-
-
-            <label for="noun2">Provide a noun</label>
-            <input type="text" id="noun2" required >
-
-            <label for="verb2">Provide a verb</label>
-            <input type="text" id="verb2" required >
-
-        
-
-            <br>
-            <input type = "submit" value = "Click to send">
-        </form>
-
-
-
-
-
+                <label for="verb2">Provide a verb</label>
+                <input type="text" id="verb2" required >
+                <br>
+                <input type = "submit" id ="submit" value = "Click to send">
+            </form>
     </main>
 
+
+    <article id="overlay" class ="hidden">
+        <p id="madlib"></p>
+    </article>
     
 
-
-
-
+    
 
     <footer>
         <p>By Shu Ren Zheng</p>
         <address>
             Contact:<a href="mailto:&#097;&#108;&#097;&#110;&#099;&#104;&#101;&#110;&#110;&#121;&#056;&#057;&#056;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Contact Me</a>
         </address>
-
-
     </footer>
 
-    
+
+
 
 </body>
 
