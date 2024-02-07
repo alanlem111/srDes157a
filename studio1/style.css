@@ -19,7 +19,6 @@ a{
 }
 
 
-/*input aniamtion*/
 input[type="text"]:focus {
     border:1px solid #D6D9DC;
     outline: 0;
@@ -36,7 +35,6 @@ footer{
     margin-top: 20px;
     color: rgb(203, 203, 203);
     background-color: rgb(161, 161, 161);
-
     
 }
 
@@ -53,20 +51,40 @@ header{
     font-size: xx-large;
     color: rgb(203, 203, 203);
 
-    
-    
-   
+
+
+}
+
+#move{
+  animation: head 5s linear infinite alternate;
+}
+
+@keyframes head {
+  0%{
+
+    transform: translate(0,0);
+}
+
+50%{
+    transform: translate(20px,0px);
+}
+
+75%{
+    transform: translate(0px,0px);
+}
+
+100%{
+    transform: translate(20px,0px);
+}
 
 }
 
 
-
 body{
-    background-image: url("images/background.jpg");
+  background-image: url("images/light.jpg");
+  
     background-size: 100% auto;
-   
     background-repeat: no-repeat;
-
 
     margin: auto;
     height: 100%;
@@ -83,10 +101,10 @@ main{
     border-radius: 25px;
     background-color: rgb(161, 161, 161);
     opacity: 0.8;
-    
 
-
+     
 }
+
 
 
 form{
@@ -95,8 +113,6 @@ form{
   flex-direction: column;
   max-width: 250px;
   
-
-
 }
 
 
@@ -113,7 +129,7 @@ label{
 
 
 
-  #overlay{
+#overlay{
     position: fixed;
     max-width: 500px;
     justify-items: center;
@@ -132,6 +148,11 @@ label{
     
   }
 
+
+
+
+  
+  
   
 
 
