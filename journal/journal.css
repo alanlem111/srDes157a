@@ -95,3 +95,9 @@ footer{
     padding-bottom: 25px;
    
 }
+
+
+figcaption{
+    font-size: small;
+    padding-bottom: 15px;
+}
