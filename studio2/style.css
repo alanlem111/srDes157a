@@ -1,0 +1,118 @@
+html{ 
+    scroll-behavior: smooth;
+    height: 100%;
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+
+
+}
+
+img{
+   
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    border: 10px solid;
+    border-radius: 2%;
+    border-color: rgb(158, 120, 62);
+
+}
+
+
+body{
+    background-image: url("images/background.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+   
+
+}
+
+
+main{
+    margin: auto;
+    height: 100%;
+   
+}
+
+
+h1{
+    color: aliceblue;
+    font-family: 'Gorditas', serif;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+span{
+    color: #F9DEBD;
+    font-family: 'Gorditas', serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+footer{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    justify-content: space-around 20px;
+}
+
+#main_page{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+
+button{
+    background-color: rgb(219, 219, 219);
+    border:none;
+    border-radius: 20%;
+    padding: 20px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    
+    
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+
+
+#slide_texts{
+
+    background-color: #beb1a0;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10%;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    font-size: 22px;
+}
+
+
+
+
+

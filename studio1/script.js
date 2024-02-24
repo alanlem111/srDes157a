@@ -10,7 +10,7 @@
     let madlib =document.querySelector("#madlib");
     
 
-
+ 
 
     form.addEventListener("submit", function (event) {
         event.preventDefault();
