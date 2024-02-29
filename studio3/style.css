@@ -13,6 +13,10 @@ html, body{
     padding:0;
 }
 
+h2{
+    color: rgb(42, 36, 28);
+}
+
 img{
    
     height: auto;
