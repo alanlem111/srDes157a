@@ -1,0 +1,97 @@
+html{ 
+    scroll-behavior: smooth;
+    height: 100%;
+    
+}
+
+html, body{
+    min-height: 100%;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+img{
+   
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    /* border: 10px solid;
+    border-radius: 2%;
+    border-color: rgb(158, 120, 62); */
+
+}
+
+
+body{
+    background-color: rgb(214, 214, 214);
+    margin: auto;
+    height: 100%;
+}
+
+
+
+main{
+
+    background-image: url("images/background.jpg");
+    margin: auto;
+    height: 100%;
+    max-width: 1200px;
+    max-height: 600px;
+    margin: auto;
+    
+    border-style: dashed;
+}
+h1{
+    text-align: center;
+    font-family: 'Gorditas', serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(72, 72, 72);
+}
+
+footer{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    background-color: aqua;
+    color: black;
+    outline: 0;
+    
+}
+
+button:hover{
+    background-color: rgb(104, 191, 191);
+
+}
+
+
+#containerPlayers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    
+}
+
+#gamecontrol{
+    padding-left: 150px;
+}
+
+
+p{
+    font-family: 'Gorditas', serif;
+    font-weight: 400;
+}
+
+#gamecontrol{
+    justify-content: space-evenly;
+}
