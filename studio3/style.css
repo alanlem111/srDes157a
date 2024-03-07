@@ -22,11 +22,25 @@ img{
     height: auto;
     max-width: 500px;
     max-height: 500px;
-    /* border: 10px solid;
-    border-radius: 2%;
-    border-color: rgb(158, 120, 62); */
+    padding: 10px;
 
 }
+
+
+#score{
+    text-align: center;
+    font-family: 'Gorditas', serif;
+    font-weight: 400;
+    font-size: 20px;
+
+    font-style: italic;
+
+   
+    
+    
+}
+
+
 
 
 body{
