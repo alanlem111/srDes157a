@@ -81,7 +81,7 @@ header{
 
 
 body{
-  background-image: url("images/light.jpg");
+  background-image: url("images/noLight.jpg");
   
     background-size: 100% auto;
     background-repeat: no-repeat;

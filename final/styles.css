@@ -51,7 +51,7 @@ footer{
 
 main{
     background-color: beige;
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
 
     justify-content: center;
@@ -77,6 +77,40 @@ p{
     max-width: 400px;
     margin: auto;
     line-height: 30px;
+}
+
+
+
+#pic{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    padding: 20px;
+}
+
+figcaption{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#processparagraph{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    max-width: 700px;
+    margin: auto;
+    line-height: 30px;
+
+}
+
+#processline{
+    background-color: #e2b9a1;
+    height: 2px;
+    border: 0 none;
+    max-width: 900px;
+    margin: auto;
+
 }
 
 
