@@ -72,7 +72,7 @@ h2{
 
 p{
     padding-top: 20px;
-    text-align: center;
+    
     font-family: 'Roboto Slab', serif;
     max-width: 400px;
     margin: auto;
@@ -96,7 +96,6 @@ figcaption{
 }
 #processparagraph{
     padding-top: 20px;
-    text-align: center;
     font-family: 'Roboto Slab', serif;
     max-width: 700px;
     margin: auto;
